@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tattoo Equipment Compatibility Checker | Poli International</title>
+    <meta name="description" content="Professional tattoo equipment compatibility checker. Verify compatibility between tattoo machines, cartridges, power supplies, and grips. Prevent costly purchasing mistakes with instant verification.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://poliinternational.com/favicon.ico" type="image/x-icon">
+<script type='application/ld+json'>
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Equipment Compatibility Checker",
+  "url": "https://poliinternational.com/tools/equipment-compatibility-checker/",
+  "description": "Check compatibility between tattoo and piercing equipment",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript. Requires HTML5.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "codeRepository": "https://github.com/poli-international/equipment-compatibility-checker",
+  "author": {
+    "@type": "Organization",
+    "name": "Poli International",
+    "url": "https://poliinternational.com",
+    "sameAs": [
+      "https://github.com/poli-international"
+    ]
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "Poli International",
+    "url": "https://poliinternational.com"
+  },
+  "maintainer": {
+    "@type": "Organization",
+    "name": "Poli International",
+    "url": "https://poliinternational.com"
+  },
+  "dateModified": "2026-02-07",
+  "license": "https://opensource.org/licenses/MIT",
+  "isAccessibleForFree": true
+}
+</script>
+
+</head>
+<body class="light-mode">
+    <!-- Skip to main content link for keyboard navigation -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+    <!-- Site Navigation Header -->
+    <header class="site-header">
+        <div class="site-header__container">
+            <a href="https://poliinternational.com/" class="site-header__logo-link">
+                <img src="images/Poli-International-Co.webp" alt="Poli International" class="site-header__logo">
+            </a>
+            <nav class="site-nav">
+                <a href="https://poliinternational.com/" class="site-nav__link">HOME</a>
+                <a href="https://poliinternational.com/who-we-are/" class="site-nav__link">ABOUT</a>
+                <a href="https://poliinternational.com/our-creation/" class="site-nav__link">INNOVATION</a>
+                <a href="https://poliinternational.com/they-trust-us/" class="site-nav__link">PARTNERS</a>
+                <a href="https://poliinternational.com/contact-us/" class="site-nav__link">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Tool Header Section -->
+    <header class="equip-checker__header">
+      <div class="equip-checker__header-content">
+        <div class="equip-checker__logo-container">
+          <img src="images/Poli-International-Co.webp" alt="Poli International Logo" class="equip-checker__logo">
+        </div>
+        <div class="equip-checker__title-group">
+          <h1 class="equip-checker__title">Tattoo Equipment Compatibility Checker</h1>
+<!-- GitHub CTA -->
+<div class='github-cta' style='margin: 1.5rem 0;'>
+  <a href='https://github.com/poli-international/equipment-compatibility-checker' 
+     target='_blank' rel='noopener noreferrer' class='btn-github' 
+     style='display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: #24292e; color: #ffffff; border-radius: 6px; text-decoration: none; font-weight: 500;'>
+    <svg width='20' height='20' viewBox='0 0 16 16' fill='currentColor'>
+      <path d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z'/>
+    </svg>
+    <span>View on GitHub</span>
+  </a>
+</div>
+<!-- GitHub Stats -->
+<div class='github-stats' style='display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1rem 0;'>
+  <img src='https://img.shields.io/github/stars/poli-international/equipment-compatibility-checker?style=social' alt='Stars' loading='lazy'>
+  <img src='https://img.shields.io/github/last-commit/poli-international/equipment-compatibility-checker' alt='Last commit' loading='lazy'>
+</div>
+
+          <p class="equip-checker__subtitle">
+            Verify compatibility between tattoo machines, power supplies, grips & cartridges - prevent costly purchasing mistakes
+          </p>
+        </div>
+        <div class="equip-checker__header-buttons">
+          <button
+            id="embed-button"
+            class="equip-checker__embed-button"
+            aria-label="Embed this tool"
+            title="Get embed code for your website"
+          >
+            <span class="embed-icon">⚡</span>
+            <span class="embed-text">Free Embed</span>
+          </button>
+          <a href='https://ko-fi.com/C0C81NEXBV' target='_blank' class="equip-checker__kofi-button">
+            <span class="kofi-icon">☕</span>
+            <span class="kofi-text">Buy Me a Coffee</span>
+          </a>
+          <button
+            id="dark-mode-toggle"
+            class="equip-checker__dark-mode-toggle"
+            aria-label="Toggle dark mode"
+            title="Toggle dark/light mode"
+          >
+            <span class="dark-mode-icon">◐</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="main-content" id="main-content">
+        <div class="container">
+            <!-- Disclaimer Banner -->
+            <div class="equip-checker__disclaimer">
+                <div class="equip-checker__disclaimer-icon">⚠️</div>
+                <div class="equip-checker__disclaimer-content">
+                    <strong>Important Warning:</strong>
+                    <p>Using incompatible equipment can damage components, void warranties, or create safety hazards. When in doubt, consult with equipment manufacturers or experienced professionals. This tool provides guidance only - always verify with manufacturer specifications.</p>
+                </div>
+            </div>
+
+            <!-- Tool Interface -->
+            <div class="tool-interface">
+        
+        <nav class="tab-nav">
+            <button class="tab-nav__button tab-nav__button--active" data-tab="check-compatibility">Check Compatibility</button>
+            <button class="tab-nav__button" data-tab="reverse-lookup">What Works With My Gear?</button>
+            <button class="tab-nav__button" data-tab="build-your-setup">Build Your Setup</button>
+            <button class="tab-nav__button" data-tab="compare-equipment">Compare Equipment</button>
+            <button class="tab-nav__button" data-tab="suggest-gear">Suggest Gear</button>
+            <button class="tab-nav__button" data-tab="faq-troubleshooting">FAQ & Troubleshooting</button>
+        </nav>
+
+        <div class="tool-content">
+            <!-- Tab 1: Check Compatibility -->
+            <div id="check-compatibility" class="tab-content" role="tabpanel" aria-labelledby="tab-check-compatibility">
+                <div class="compatibility-checker">
+                    <div class="component-selector">
+                        <h3 id="comp1-label">Component 1</h3>
+                        <div class="combobox-wrapper">
+                            <input type="text" id="comp1-model-search" class="combobox__input"
+                                   placeholder="Search for any equipment..."
+                                   aria-label="Search for first component"
+                                   aria-describedby="comp1-label"
+                                   aria-autocomplete="list"
+                                   aria-controls="comp1-model-list"
+                                   role="combobox"
+                                   aria-expanded="false">
+                            <ul id="comp1-model-list" class="combobox__list" role="listbox" aria-label="Component 1 suggestions"></ul>
+                        </div>
+                    </div>
+                    <div class="connector-icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 12.17l7.59-7.59L19 6l-9 9z"/></svg>
+                    </div>
+                    <div class="component-selector">
+                        <h3 id="comp2-label">Component 2</h3>
+                         <div class="combobox-wrapper">
+                            <input type="text" id="comp2-model-search" class="combobox__input"
+                                   placeholder="Search for any equipment..."
+                                   aria-label="Search for second component"
+                                   aria-describedby="comp2-label"
+                                   aria-autocomplete="list"
+                                   aria-controls="comp2-model-list"
+                                   role="combobox"
+                                   aria-expanded="false">
+                            <ul id="comp2-model-list" class="combobox__list" role="listbox" aria-label="Component 2 suggestions"></ul>
+                        </div>
+                    </div>
+                </div>
+                <button id="check-compatibility-btn" class="button button--primary button--large" aria-describedby="compatibility-result">Check Compatibility</button>
+                <div id="loading-spinner" class="loading-spinner" role="status" aria-live="polite" aria-busy="false">
+                    <div class="spinner"></div>
+                    <p class="loading-text">Analyzing compatibility...</p>
+                </div>
+                <div id="compatibility-result" class="result-container" style="display: none;" role="region" aria-live="polite" aria-atomic="true"></div>
+            </div>
+
+            <!-- Tab 2: Reverse Lookup -->
+            <div id="reverse-lookup" class="tab-content" style="display: none;">
+                <p class="tab-description">Select a piece of equipment to see all compatible items from our database.</p>
+
+                <!-- View Toggle -->
+                <div class="view-toggle">
+                    <button id="list-view-btn" class="view-toggle__btn view-toggle__btn--active" aria-pressed="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                            <path d="M4 14h4v-4H4v4zm0 5h4v-4H4v4zM4 9h4V5H4v4zm5 5h12v-4H9v4zm0 5h12v-4H9v4zM9 5v4h12V5H9z"/>
+                        </svg>
+                        List View
+                    </button>
+                    <button id="matrix-view-btn" class="view-toggle__btn" aria-pressed="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                            <path d="M4 11h5V5H4v6zm0 7h5v-6H4v6zm6 0h5v-6h-5v6zm6 0h5v-6h-5v6zm-6-7h5V5h-5v6zm6-6v6h5V5h-5z"/>
+                        </svg>
+                        Matrix View
+                    </button>
+                </div>
+
+                <div class="reverse-lookup-controls">
+                    <div class="combobox-wrapper">
+                        <input type="text" id="reverse-lookup-search" class="combobox__input" placeholder="Search for your equipment...">
+                        <ul id="reverse-lookup-list" class="combobox__list"></ul>
+                    </div>
+                    <div class="filter-group">
+                        <label for="reverse-brand-filter">Filter by Brand:</label>
+                        <select id="reverse-brand-filter" class="styled-select">
+                            <option value="">All Brands</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="reverse-price-filter">Filter by Price:</label>
+                        <select id="reverse-price-filter" class="styled-select">
+                            <option value="">All Prices</option>
+                            <option value="budget">$ Budget (0-2)</option>
+                            <option value="mid">$$ Mid-Range (3-4)</option>
+                            <option value="premium">$$$ Premium (5+)</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="reverse-connection-filter">Connection Type:</label>
+                        <select id="reverse-connection-filter" class="styled-select">
+                            <option value="">All Types</option>
+                            <option value="rca">RCA</option>
+                            <option value="clip">Clip Cord</option>
+                            <option value="wireless">Wireless</option>
+                            <option value="both">RCA + Clip Cord</option>
+                        </select>
+                    </div>
+                    <div class="filter-group filter-group--checkbox">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="reverse-favorites-filter" class="styled-checkbox">
+                            <span class="checkbox-text">
+                                <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                </svg>
+                                Show Favorites Only
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <div id="reverse-lookup-result" class="result-container"></div>
+
+                <!-- Matrix View Container -->
+                <div id="compatibility-matrix-container" style="display: none;">
+                    <div class="matrix-controls">
+                        <div class="filter-group">
+                            <label for="matrix-category-filter">Equipment Type:</label>
+                            <select id="matrix-category-filter" class="styled-select">
+                                <option value="machine">Machines</option>
+                                <option value="power">Power Supplies</option>
+                                <option value="cartridge">Cartridges</option>
+                                <option value="grip">Grips</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="matrix-brand-filter">Filter by Brand:</label>
+                            <select id="matrix-brand-filter" class="styled-select">
+                                <option value="">All Brands</option>
+                            </select>
+                        </div>
+                        <div class="matrix-legend">
+                            <span class="legend-item"><span class="legend-color legend-color--compatible"></span> Compatible</span>
+                            <span class="legend-item"><span class="legend-color legend-color--conditional"></span> Conditional</span>
+                            <span class="legend-item"><span class="legend-color legend-color--incompatible"></span> Incompatible</span>
+                            <span class="legend-item"><span class="legend-color legend-color--na"></span> N/A</span>
+                        </div>
+                    </div>
+                    <div id="compatibility-matrix" class="compatibility-matrix"></div>
+                </div>
+            </div>
+
+            <!-- Tab 3: Build Your Setup -->
+            <div id="build-your-setup" class="tab-content" style="display: none;">
+                <p class="tab-description">Select one of each component type to check compatibility for a full professional setup.</p>
+                <div class="build-filters">
+                    <div class="filter-group">
+                        <label for="build-price-filter">Budget:</label>
+                        <select id="build-price-filter" class="styled-select">
+                            <option value="">All Prices</option>
+                            <option value="budget">$ Budget</option>
+                            <option value="mid">$$ Mid-Range</option>
+                            <option value="premium">$$$ Premium</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="build-sort">Sort By:</label>
+                        <select id="build-sort" class="styled-select">
+                            <option value="brand">Brand A-Z</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="build-setup-grid">
+                    <div class="build-setup-item">
+                        <label>Tattoo Machine</label>
+                        <div class="combobox-wrapper">
+                             <input type="text" id="build-machine-search" class="combobox__input" placeholder="Search for a machine...">
+                             <ul id="build-machine-list" class="combobox__list"></ul>
+                        </div>
+                    </div>
+                     <div class="build-setup-item">
+                        <label>Power Supply</label>
+                        <div class="combobox-wrapper">
+                             <input type="text" id="build-power-search" class="combobox__input" placeholder="Search for a power supply...">
+                             <ul id="build-power-list" class="combobox__list"></ul>
+                        </div>
+                    </div>
+                     <div class="build-setup-item">
+                        <label>Cartridge / Needle</label>
+                        <div class="combobox-wrapper">
+                             <input type="text" id="build-cartridge-search" class="combobox__input" placeholder="Search for cartridges...">
+                             <ul id="build-cartridge-list" class="combobox__list"></ul>
+                        </div>
+                    </div>
+                     <div class="build-setup-item">
+                        <label>Grip / Tube</label>
+                        <div class="combobox-wrapper">
+                             <input type="text" id="build-grip-search" class="combobox__input" placeholder="Search for a grip...">
+                             <ul id="build-grip-list" class="combobox__list"></ul>
+                        </div>
+                    </div>
+                </div>
+                 <button id="check-full-setup-btn" class="button button--primary button--large">Analyze Full Setup</button>
+                 <div id="build-setup-result" class="result-container" style="display: none;"></div>
+            </div>
+
+            <!-- Tab 4: Compare Equipment -->
+            <div id="compare-equipment" class="tab-content" style="display: none;">
+                <p class="tab-description">Select 2-4 items to compare their specifications side by side. Perfect for making purchase decisions.</p>
+                <div class="comparison-controls">
+                    <div class="comparison-selectors">
+                        <div class="comparison-selector-item">
+                            <label>Item 1</label>
+                            <div class="combobox-wrapper">
+                                <input type="text" id="compare-item1-search" class="combobox__input" placeholder="Search equipment...">
+                                <ul id="compare-item1-list" class="combobox__list"></ul>
+                            </div>
+                        </div>
+                        <div class="comparison-selector-item">
+                            <label>Item 2</label>
+                            <div class="combobox-wrapper">
+                                <input type="text" id="compare-item2-search" class="combobox__input" placeholder="Search equipment...">
+                                <ul id="compare-item2-list" class="combobox__list"></ul>
+                            </div>
+                        </div>
+                        <div class="comparison-selector-item">
+                            <label>Item 3 (Optional)</label>
+                            <div class="combobox-wrapper">
+                                <input type="text" id="compare-item3-search" class="combobox__input" placeholder="Search equipment...">
+                                <ul id="compare-item3-list" class="combobox__list"></ul>
+                            </div>
+                        </div>
+                        <div class="comparison-selector-item">
+                            <label>Item 4 (Optional)</label>
+                            <div class="combobox-wrapper">
+                                <input type="text" id="compare-item4-search" class="combobox__input" placeholder="Search equipment...">
+                                <ul id="compare-item4-list" class="combobox__list"></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comparison-actions">
+                        <button id="compare-items-btn" class="button button--primary button--large">Compare Selected Items</button>
+                        <button id="clear-comparison-btn" class="button button--secondary">Clear All</button>
+                    </div>
+                </div>
+                <div id="comparison-result" class="comparison-result-container" style="display: none;"></div>
+            </div>
+
+            <!-- Tab 5: Suggest Gear -->
+            <div id="suggest-gear" class="tab-content" style="display: none;">
+                <p class="tab-description">Don't see a piece of equipment? Help us keep our database up-to-date by suggesting it.</p>
+                <form id="suggest-gear-form" class="suggestion-form">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="suggest-type">Equipment Type</label>
+                            <select id="suggest-type" class="styled-select" required>
+                                <option value="">Select Type</option>
+                                <option value="machine">Machine</option>
+                                <option value="power">Power Supply</option>
+                                <option value="cartridge">Cartridge/Needle</option>
+                                <option value="grip">Grip/Tube</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="suggest-brand">Brand</label>
+                            <input type="text" id="suggest-brand" class="styled-input" placeholder="e.g., Cheyenne, FK Irons" required>
+                        </div>
+                         <div class="form-group">
+                            <label for="suggest-model">Model</label>
+                            <input type="text" id="suggest-model" class="styled-input" placeholder="e.g., Sol Nova, Spektra Flux" required>
+                        </div>
+                         <div class="form-group">
+                            <label for="suggest-url">Product Link (Optional)</label>
+                            <input type="url" id="suggest-url" class="styled-input" placeholder="https://...">
+                        </div>
+                    </div>
+                    <button type="submit" class="button button--primary">Submit Suggestion</button>
+                    <p id="suggest-success" class="form-message form-message--success" style="display: none;">Thank you! Your suggestion has been submitted for review.</p>
+                </form>
+            </div>
+
+            <!-- Tab 5: FAQ & Troubleshooting -->
+            <div id="faq-troubleshooting" class="tab-content" style="display: none;">
+                <!-- Troubleshooting Wizard -->
+                <div class="troubleshooting-wizard">
+                    <div class="wizard-header">
+                        <h3>🔧 Interactive Troubleshooting Wizard</h3>
+                        <p>Answer a few questions to diagnose and solve compatibility issues</p>
+                    </div>
+
+                    <div id="wizard-content" class="wizard-content">
+                        <!-- Progress indicator -->
+                        <div class="wizard-progress">
+                            <div class="wizard-progress-bar">
+                                <div id="wizard-progress-fill" class="wizard-progress-fill" style="width: 0%"></div>
+                            </div>
+                            <span id="wizard-step-text" class="wizard-step-text">Step 1 of 5</span>
+                        </div>
+
+                        <!-- Question area -->
+                        <div id="wizard-question" class="wizard-question"></div>
+
+                        <!-- Options area -->
+                        <div id="wizard-options" class="wizard-options"></div>
+
+                        <!-- Navigation -->
+                        <div class="wizard-nav">
+                            <button id="wizard-back-btn" class="button button--secondary" style="display: none;">← Back</button>
+                            <button id="wizard-restart-btn" class="button button--secondary">🔄 Start Over</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Section -->
+                <div class="faq-section">
+                    <h3>Frequently Asked Questions</h3>
+                    <div class="faq-item">
+                        <h4>What does "Conditional" compatibility mean?</h4>
+                        <p>This means the components might work together, but with limitations. Common examples include needing an adapter (e.g., for RCA to clip cord), potential performance issues (like a low-amperage power supply with a demanding coil machine), or a safety concern (like a cartridge without a membrane). Always read the notes carefully.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Why is my wireless machine showing as "Conditional" with a power supply?</h4>
+                        <p>Wireless machines have built-in batteries and do not require an external power supply or cables to operate. The tool flags this to prevent you from buying a power supply you don't need for that machine.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>What's the difference between RCA and Clip Cord connections?</h4>
+                        <p>RCA is a modern, stable, single-plug connection that provides consistent power. A Clip Cord is an older, two-pronged connection. While still functional, it's generally considered less reliable than RCA. Most modern power supplies offer outputs for both.</p>
+                    </div>
+                     <div class="faq-item">
+                        <h4>What is a cartridge membrane and why is it important?</h4>
+                        <p>A safety membrane is a flexible barrier inside a tattoo cartridge that prevents ink, blood, and other fluids from flowing back into the machine's grip and motor. Using cartridges without a membrane can damage your machine, void its warranty, and creates a serious cross-contamination risk between clients.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="disclaimer disclaimer--info">
+            <p><strong>DISCLAIMER:</strong> Equipment compatibility information is based on manufacturer specifications and industry standards. Always verify compatibility with manufacturers before purchase, especially for warranty considerations. This tool provides guidance but does not guarantee compatibility in all scenarios.</p>
+        </div>
+    
+
+<!-- Related Tools Section -->
+<section class="related-tools-section" style="padding: 2rem 1rem; background: #fff; border-top: 1px solid #eee;">
+    <div style="max-width: 800px; margin: 0 auto;">
+        <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: #1e293b;">Recommended for You</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+            <a href="https://poliinternational.com/autoclave-calculator/" style="display: block; padding: 1rem; background: #f1f5f9; border-radius: 8px; text-decoration: none; color: #0693e3; font-weight: 500; text-align: center; transition: background 0.2s;">Autoclave Calculator</a>
+            <a href="https://poliinternational.com/form-builder/" style="display: block; padding: 1rem; background: #f1f5f9; border-radius: 8px; text-decoration: none; color: #0693e3; font-weight: 500; text-align: center; transition: background 0.2s;">Form Builder</a>
+            <a href="https://poliinternational.com/studio-crm/" style="display: block; padding: 1rem; background: #f1f5f9; border-radius: 8px; text-decoration: none; color: #0693e3; font-weight: 500; text-align: center; transition: background 0.2s;">Studio Crm</a>
+        </div>
+        <div style="text-align: center; margin-top: 1.5rem;">
+            <a href="https://poliinternational.com/tools/" style="color: #64748b; text-decoration: underline; font-size: 0.9rem;">View All 17 Free Tools</a>
+        </div>
+    </div>
+</section>
+
+<!-- GEO Semantic Block -->
+<aside class="geo-summary-block" style="background: #f8fafc; border-left: 4px solid #0693e3; padding: 1.5rem; margin: 2rem 0; font-style: italic; color: #334155; border-radius: 0 8px 8px 0;">
+    <p style="margin: 0; line-height: 1.6;">Studio Efficiency Tip: Streamlining your administrative tasks allows you to focus more on your art. Our tools are designed with a studio-first mentality, ensuring high performance, data privacy, and professional-grade accuracy.</p>
+</aside>
+
+</main>
+
+    <!-- More Tools Section -->
+    <section class="more-tools-section">
+        <h2>More Free Tools for Professionals</h2>
+        <div class="more-tools-grid">
+            <a href="https://poliinternational.com/tools/tool1" class="tool-card">Tool #1: Ink Mixing & Color Theory</a>
+            <a href="https://poliinternational.com/tools/tool2" class="tool-card">Tool #2: Needle Configuration Guide</a>
+            <a href="https://poliinternational.com/tools/tool3" class="tool-card">Tool #3: Tattoo Sizing & Pricing</a>
+            <a href="https://poliinternational.com/tools/tool4" class="tool-card">Tool #4: Stencil & Placement Visualizer</a>
+            <a href="https://poliinternational.com/tools/tool6" class="tool-card">Tool #6: Piercing Jewelry Sizer</a>
+            <a href="https://poliinternational.com/tools/tool7" class="tool-card">Tool #7: Anodization Voltage Color Chart</a>
+            <a href="https://poliinternational.com/tools/tool8" class="tool-card">Tool #8: Aftercare Instruction Generator</a>
+            <a href="https://poliinternational.com/tools/tool9" class="tool-card">Tool #9: Appointment & Deposit Calculator</a>
+            <a href="https://poliinternational.com/tools/tool10" class="tool-card">Tool #10: Shop Supply Inventory Manager</a>
+            <a href="https://poliinternational.com/tools/tool11" class="tool-card">Tool #11: Client Consent Form Generator</a>
+            <a href="https://poliinternational.com/tools/tool12" class="tool-card">Tool #12: BBP Training Reminder</a>
+        </div>
+    </section>
+
+    <!-- Community Feedback Section -->
+    <section class="feedback-section">
+        <h2>Help Us Improve!</h2>
+        <p>Your feedback is vital. Let us know what features you'd like to see or if you've found an issue.</p>
+        <form id="feedbackForm" class="feedback-form">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="userEmail">Your Email</label>
+                    <input type="email" id="userEmail" class="styled-input" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="userRole">Your Role</label>
+                    <select id="userRole" class="styled-select" required>
+                        <option value="">Select your role</option>
+                        <option value="artist">Tattoo Artist</option>
+                        <option value="piercer">Piercer</option>
+                        <option value="studio-owner">Studio Owner</option>
+                        <option value="apprentice">Apprentice</option>
+                        <option value="retailer">Retailer/Supplier</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="feedbackText">Feedback / Suggestion</label>
+                <textarea id="feedbackText" class="styled-textarea" rows="4" placeholder="Tell us what you think..." required></textarea>
+            </div>
+            <button type="submit" class="button button--secondary">Send Feedback</button>
+            <p id="feedbackSuccess" class="form-message form-message--success" style="display:none;">Thank you for your feedback!</p>
+            <p id="feedbackError" class="form-message form-message--error" style="display:none;">Something went wrong. Please try again.</p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="equip-checker__footer">
+
+      <!-- Email Capture Section -->
+      <div class="equip-checker__email-section">
+        <h3 class="equip-checker__email-title">🔔 Get Notified of New Tools!</h3>
+        <p class="equip-checker__email-description">
+          Be first to know when we launch new free tools for tattoo and piercing professionals.
+        </p>
+        <form class="equip-checker__email-form" id="footer-email-form" data-location="footer">
+          <div class="equip-checker__email-input-group">
+            <input
+              type="email"
+              id="footer-email-input"
+              class="equip-checker__email-input"
+              placeholder="Your email address"
+              required
+              aria-label="Email address for tool updates"
+            />
+            <button type="submit" class="equip-checker__email-submit">
+              Notify Me
+            </button>
+          </div>
+          <p class="equip-checker__email-success" id="footer-email-success" style="display: none;">
+            ✅ Thanks! We'll notify you when new tools launch!
+          </p>
+          <p class="equip-checker__email-error" id="footer-email-error" style="display: none;">
+            ❌ Please enter a valid email address.
+          </p>
+        </form>
+        <div class="equip-checker__email-trust">
+          <span>✅ Free tool updates only</span>
+          <span>✅ No spam</span>
+          <span>✅ Unsubscribe anytime</span>
+        </div>
+      </div>
+
+      <div class="equip-checker__branding">
+        <p class="equip-checker__brand-text">
+          Professional Tool by <strong>Poli International</strong>
+        </p>
+        <p class="equip-checker__brand-tagline">
+          Leading B2B Supplier of Tattoo &amp; Piercing Equipment
+        </p>
+      </div>
+      <div class="equip-checker__links">
+        <a href="https://poliinternational.com" class="equip-checker__link" target="_blank" rel="noopener noreferrer">
+          Visit Poli International
+        </a>
+        <a href="https://poliinternational.com/tools" class="equip-checker__link">
+          More Professional Tools
+        </a>
+      </div>
+
+      <!-- Ko-fi Support Button -->
+      <div class="equip-checker__support">
+        <a href='https://ko-fi.com/C0C81NEXBV' target='_blank' class="equip-checker__kofi">
+          <img src='https://storage.ko-fi.com/cdn/kofi6.png?v=6'
+               border='0' alt='Buy Me a Coffee at ko-fi.com'
+               class="equip-checker__kofi-img" />
+        </a>
+      </div>
+
+      <!-- Copyright -->
+      <div class="equip-checker__copyright">
+        <p>© 2025 Poli International Co. All rights reserved.</p>
+      </div>
+
+    </footer>
+
+    <!-- Embed Modal -->
+    <div id="embed-modal" class="equip-checker__modal" style="display: none;">
+      <div class="equip-checker__modal-overlay" id="modal-overlay"></div>
+      <div class="equip-checker__modal-content">
+        <button class="equip-checker__modal-close" id="modal-close" aria-label="Close modal">×</button>
+
+        <h2 class="equip-checker__modal-title">🎁 Use This Tool FREE on Your Website!</h2>
+        <p class="equip-checker__modal-subtitle">
+          Embed this professional equipment compatibility checker on your site - completely free, no attribution required!
+        </p>
+
+        <div class="equip-checker__modal-section">
+          <h3 class="equip-checker__modal-section-title">📋 Copy Embed Code</h3>
+          <p class="equip-checker__modal-description">
+            Just copy this code and paste it anywhere on your website:
+          </p>
+          <div class="equip-checker__code-container">
+            <code class="equip-checker__embed-code" id="embed-code">&lt;iframe src="https://poliinternational.com/tools/equipment-compatibility/" width="100%" height="1000" frameborder="0" style="border: 1px solid #ddd; border-radius: 8px;"&gt;&lt;/iframe&gt;</code>
+            <button class="equip-checker__copy-button" id="copy-embed-code">
+              📋 Copy Code
+            </button>
+          </div>
+          <p class="equip-checker__success-message" id="copy-success" style="display: none;">
+            ✅ Code copied to clipboard!
+          </p>
+        </div>
+
+        <div class="equip-checker__modal-section">
+          <h3 class="equip-checker__modal-section-title">💾 Download or Explore More</h3>
+          <p class="equip-checker__modal-description">
+            Want to host it yourself or discover more professional tools?
+          </p>
+          <div class="equip-checker__download-buttons">
+            <a href="embed.html" download class="equip-checker__download-button">
+              ⬇️ Download HTML File
+            </a>
+            <a href="https://poliinternational.com/tools" target="_blank" class="equip-checker__download-button equip-checker__download-button--secondary">
+              🔗 More Free Tools
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    <!-- Privacy Policy Modal -->
+    <div id="privacy-modal" class="modal-container" style="display: none;">
+        <div id="privacy-overlay" class="modal-overlay"></div>
+        <div class="modal-content modal-content--legal">
+            <button id="privacy-close" class="modal-close-btn" aria-label="Close modal">&times;</button>
+            <h1>Privacy Policy</h1>
+            <p><em>Last Updated: October 26, 2023</em></p>
+            <p>Poli International ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our free web tools (the "Services").</p>
+            <h2>1. Information We Collect</h2>
+            <p>Our free tools, including the Equipment Compatibility Checker, are designed to be used without collecting any personally identifiable information (PII). We do not require you to create an account or provide your name, email address, or other personal details to use the core functionality of the tools.</p>
+            <p>Information you voluntarily provide through the feedback form (such as your email address and comments) is collected solely for the purpose of improving our services and responding to your inquiries.</p>
+            <h2>2. Use of Your Information</h2>
+            <p>We may use information collected in the following ways:</p>
+            <ul>
+                <li>To operate and maintain the Services.</li>
+                <li>To improve the accuracy and functionality of our tools.</li>
+                <li>To respond to your comments, questions, and provide customer service.</li>
+                <li>To monitor and analyze usage and trends to improve your experience with our Services.</li>
+            </ul>
+            <h2>3. Disclosure of Your Information</h2>
+            <p>We do not sell, trade, rent, or otherwise share your personal information with third parties for their marketing purposes. Any information provided via feedback forms is used for internal purposes only.</p>
+            <h2>4. Cookies and Tracking Technologies</h2>
+            <p>We may use local storage to save your preferences, such as your choice between light and dark mode. This information is stored on your device and is not transmitted to our servers. We do not use tracking cookies for advertising purposes.</p>
+            <h2>5. Security of Your Information</h2>
+            <p>We use administrative, technical, and physical security measures to help protect your information. While we have taken reasonable steps to secure any information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.</p>
+            <h2>6. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
+            <h2>7. Contact Us</h2>
+            <p>If you have questions or comments about this Privacy Policy, please contact us through the official Poli International website's contact page.</p>
+        </div>
+    </div>
+
+    <!-- Terms of Service Modal -->
+    <div id="terms-modal" class="modal-container" style="display: none;">
+        <div id="terms-overlay" class="modal-overlay"></div>
+        <div class="modal-content modal-content--legal">
+            <button id="terms-close" class="modal-close-btn" aria-label="Close modal">&times;</button>
+            <h1>Terms of Service</h1>
+            <p><em>Last Updated: October 26, 2023</em></p>
+            <p>Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the free web tools (the "Service") operated by Poli International ("us", "we", or "our").</p>
+            <p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service.</p>
+            <h2>1. Use of Service</h2>
+            <p>The Equipment Compatibility Checker and other tools are provided for informational purposes only. The data is compiled from manufacturer specifications and public industry knowledge. We do not guarantee the accuracy, completeness, or suitability of the information and are not responsible for any errors or omissions.</p>
+            <h2>2. Disclaimer of Warranty</h2>
+            <p>The Service is provided on an "AS IS" and "AS AVAILABLE" basis. The Service is provided without warranties of any kind, whether express or implied, including, but not not limited to, implied warranties of merchantability, fitness for a particular purpose, non-infringement, or course of performance.</p>
+            <p><strong>Poli International does not warrant that the compatibility information provided will be accurate in all cases. You must verify compatibility with the equipment manufacturer before making any purchase or using equipment in a professional capacity.</strong></p>
+            <h2>3. Limitation of Liability</h2>
+            <p>In no event shall Poli International, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; and (iv) unauthorized access, use or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence) or any other legal theory, whether or not we have been informed of the possibility of such damage, and even if a remedy set forth herein is found to have failed of its essential purpose.</p>
+            <p>Your reliance on any information provided by the tool is solely at your own risk. Using incompatible equipment can lead to equipment damage, voided warranties, or safety hazards.</p>
+            <h2>4. Changes</h2>
+            <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. We will provide notice of any changes by posting the new Terms of Service on this page.</p>
+            <h2>5. Contact Us</h2>
+            <p>If you have any questions about these Terms, please contact us through the official Poli International website.</p>
+        </div>
+    </div>
+
+    <!-- Toast Notifications Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Fuse.js for fuzzy search -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+    <script src="js/machine-database.js"></script>
+    <script src="js/cartridge-database.js"></script>
+    <script src="js/power-database.js"></script>
+    <script src="js/grip-tube-database.js"></script>
+    <script src="js/compatibility-engine.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/checker.js"></script>
+    <script src="js/feedback.js"></script>
+
+<!-- AUTOMATIC IFRAME CONTENT HIDER (ADDED BY ANTIGRAVITY) -->
+<script>
+    if (window.self !== window.top) {
+        document.addEventListener('DOMContentLoaded', function() {
+            const selectors = [
+                '.site-header', '.site-footer', '.equip-checker__header', 
+                '.equip-checker__footer', '.tool-title-section', '.more-tools-section',
+                '.feedback-section', '.related-tools-section', '.geo-summary-block',
+                '.needle-selector__header', '.needle-selector__footer', 
+                '.needle-selector__more-tools', '.community-feedback',
+                '.poli-footer', '.share-card', '.need-support-card', '.explore-all-card'
+            ];
+            selectors.forEach(selector => {
+                const elements = document.querySelectorAll(selector);
+                elements.forEach(el => el.style.display = 'none');
+            });
+            // Force reset body margins for embed
+            document.body.style.paddingTop = '0';
+            document.body.style.marginTop = '0';
+            document.body.style.paddingBottom = '0';
+            document.body.style.marginBottom = '0';
+        });
+    }
+</script>
+
+</body>
+</html>
