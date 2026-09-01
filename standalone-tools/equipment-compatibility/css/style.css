@@ -393,30 +393,9 @@ body.dark-mode .social-share-btn:hover {
   transform: translateY(0);
 }
 
-/* Ko-fi Button */
-.equip-checker__kofi-button {
-  background: rgba(255, 255, 255, 0.2);
-  border: 2px solid rgba(255, 255, 255, 0.4);
-  border-radius: 8px;
-  padding: 0.5rem 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  backdrop-filter: blur(10px);
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 1rem;
-  text-decoration: none;
-}
+/
 
-.equip-checker__kofi-button:hover {
-  background: rgba(255, 255, 255, 0.3);
-  border-color: rgba(255, 255, 255, 0.6);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-}
+
 
 /* Dark Mode Toggle */
 .equip-checker__dark-mode-toggle {
@@ -441,17 +420,17 @@ body.dark-mode .social-share-btn:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.embed-icon, .kofi-icon, .dark-mode-icon {
+.embed-icon, .dark-mode-icon {
   font-size: 20px;
 }
 
-.embed-text, .kofi-text {
+.embed-text{
   white-space: nowrap;
 }
 
 /* Hide button text on small screens */
 @media (max-width: 480px) {
-  .embed-text, .kofi-text {
+  .embed-text{
     display: none;
   }
 }
@@ -520,37 +499,13 @@ body.dark-mode .social-share-btn:hover {
   align-items: center;
 }
 
-.equip-checker__kofi {
-  display: inline-block;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  opacity: 0.95;
-}
 
-.equip-checker__kofi:hover {
-  transform: translateY(-3px) scale(1.08);
-  opacity: 1;
-}
 
-.equip-checker__kofi-img {
-  display: block;
-  height: 70px;
-  width: auto;
-  border: 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  transition: all 0.3s ease;
-}
 
-.equip-checker__kofi:hover .equip-checker__kofi-img {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
-}
 
-/* Make Ko-fi button even bigger on desktop */
-@media (min-width: 768px) {
-  .equip-checker__kofi-img {
-    height: 80px;
-  }
-}
+
+
+
 
 /* Copyright */
 .equip-checker__copyright {
