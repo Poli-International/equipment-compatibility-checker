@@ -52,7 +52,7 @@
             }
 
             submitButton.disabled = true;
-            const originalButtonText = submitButton.textContent;
+            const originalButtonText = submitButton.innerHTML;
             submitButton.textContent = 'Subscribing...';
 
             errorMessage.style.display = 'none';
@@ -73,7 +73,7 @@
                 }
 
                 submitButton.disabled = false;
-                submitButton.textContent = originalButtonText;
+                submitButton.innerHTML = originalButtonText;
             }, 800);
         });
     }
